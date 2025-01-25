@@ -52,7 +52,7 @@ def updated_cards():
             else:
                 continue 
 
-        elif choose =="stand":
+        elif choose[0] == "s":
             print(f"Dealer cards:{dealer_card_list}")
 
             if sum(dealer_card_list) > sum(your_card_list):
