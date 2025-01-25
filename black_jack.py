@@ -37,7 +37,7 @@ def updated_cards():
             high_score = coins
 
 
-        if choose == "hit":
+        if choose[0] == "h":
             your_card_list.append(random.choice(cards_list))
             for i in range(len(your_card_list)):
                 #it converts ace to 1 when the sum goes above 21 with ace
